@@ -2,6 +2,7 @@ import React from 'react';
 import HighchartsReact from 'highcharts-react-official';
 import Highcharts from 'highcharts';
 import sunburst from 'highcharts/modules/sunburst.js';
+
 sunburst(Highcharts);
 
 let options = {

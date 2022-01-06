@@ -1088,6 +1088,30 @@
     "inferno-create-element" "^7.4.6"
     "inferno-hydrate" "^7.4.6"
 
+"@editorjs/editorjs@*", "@editorjs/editorjs@^2.22.2":
+  "integrity" "sha512-rPCv7Z5LZebreQaaL4DZuWzoVGEqwB+P7BF1dsefGQNBmLyeLF412topeW2b6e+g4l1oQ7t75kCOACNTEyYYIA=="
+  "resolved" "https://registry.npmjs.org/@editorjs/editorjs/-/editorjs-2.22.2.tgz"
+  "version" "2.22.2"
+  dependencies:
+    "codex-notifier" "^1.1.2"
+    "codex-tooltip" "^1.0.2"
+    "nanoid" "^3.1.22"
+
+"@editorjs/header@^2.6.2":
+  "integrity" "sha512-U1dnT+KGjwFmpWneEEyR2Nqp42hn9iKwQDgRHWQM+y6qx82pg+eAyuIf0QWt2Mluu9uPD2CzNfvJ+pxIuwX8Lw=="
+  "resolved" "https://registry.npmjs.org/@editorjs/header/-/header-2.6.2.tgz"
+  "version" "2.6.2"
+
+"@editorjs/image@^2.6.2":
+  "integrity" "sha512-lai6LFJ8m3qRmSjio66o0CX7/75OupC3FQ5JWrV/biRT6GvUHtRNWKaMowKcC2ndXtfs4w6WwRxcXlB4WhUAdg=="
+  "resolved" "https://registry.npmjs.org/@editorjs/image/-/image-2.6.2.tgz"
+  "version" "2.6.2"
+
+"@editorjs/paragraph@*", "@editorjs/paragraph@^2.8.0":
+  "integrity" "sha512-z6w5ZR0ru3p/IjxJW/tb7OcSnVttkZukQMIsnBMX1FIKc1BNdr7NwM1YoCyTl4OnC90YfL0xgES6/20/W267pw=="
+  "resolved" "https://registry.npmjs.org/@editorjs/paragraph/-/paragraph-2.8.0.tgz"
+  "version" "2.8.0"
+
 "@eslint/eslintrc@^1.0.5":
   "integrity" "sha512-BLxsnmK3KyPunz5wmCCpqy0YelEoxxGmH73Is+Z74oOTMtExcjkr3dDR6quwrjh1YspA8DH9gnX1o069KiS9AQ=="
   "resolved" "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-1.0.5.tgz"
@@ -1440,6 +1464,25 @@
     "loader-utils" "^2.0.0"
     "schema-utils" "^3.0.0"
     "source-map" "^0.7.3"
+
+"@react-editor-js/client@2.0.6":
+  "integrity" "sha512-LMMJLAXAwk1kVMy7fxTRFK6OdouvoseqJbmVUygJb2EcfuT84nC9OAtvGEL4vsVLUcnzEV400+F9t5OKa77FGQ=="
+  "resolved" "https://registry.npmjs.org/@react-editor-js/client/-/client-2.0.6.tgz"
+  "version" "2.0.6"
+  dependencies:
+    "@react-editor-js/core" "2.0.6"
+
+"@react-editor-js/core@2.0.6":
+  "integrity" "sha512-mvHM2I+gT3AnvFpFhTZI0EFLKD9pRpgXDf286uwv6n6tngwLfnCCmtCbgiGI9ICph2GJvRZfaQubE+MHQ6YV8g=="
+  "resolved" "https://registry.npmjs.org/@react-editor-js/core/-/core-2.0.6.tgz"
+  "version" "2.0.6"
+
+"@react-editor-js/server@2.0.6":
+  "integrity" "sha512-soW/bV5auciYr8gEYISWK4fuIblAcc4bcwPuCKnDBj9W9r/nAxMmNgCG+z9rs9Gnroa0Ko3Hzwzs9d5MdOShzg=="
+  "resolved" "https://registry.npmjs.org/@react-editor-js/server/-/server-2.0.6.tgz"
+  "version" "2.0.6"
+  dependencies:
+    "@react-editor-js/core" "2.0.6"
 
 "@rollup/plugin-babel@^5.2.0":
   "integrity" "sha512-9uIC8HZOnVLrLHxayq/PTzw+uS25E14KPUBh5ktF+18Mjo5yK0ToMMx6epY0uEgkjwJw0aBW4x2horYXh8juWw=="
@@ -2874,6 +2917,16 @@
     "@types/q" "^1.5.1"
     "chalk" "^2.4.1"
     "q" "^1.1.2"
+
+"codex-notifier@^1.1.2":
+  "integrity" "sha512-DCp6xe/LGueJ1N5sXEwcBc3r3PyVkEEDNWCVigfvywAkeXcZMk9K41a31tkEFBW0Ptlwji6/JlAb49E3Yrxbtg=="
+  "resolved" "https://registry.npmjs.org/codex-notifier/-/codex-notifier-1.1.2.tgz"
+  "version" "1.1.2"
+
+"codex-tooltip@^1.0.2":
+  "integrity" "sha512-Ud+N+y8PMIa9xGyKuo2j3q8QlfTzkMWQ5KeRrbCDerwVn7xq45nqPKQCFBXEMV0YI42/OqSMnsxP8MyVAyVhnA=="
+  "resolved" "https://registry.npmjs.org/codex-tooltip/-/codex-tooltip-1.0.4.tgz"
+  "version" "1.0.4"
 
 "collect-v8-coverage@^1.0.0":
   "integrity" "sha512-iBPtljfCNcTKNAto0KEtDfZ3qzjJvqE3aTGZsbhjSBlorqpXJlaWWtPO35D+ZImoC3KWejX64o+yPGxhWSTzfg=="
@@ -6583,7 +6636,7 @@
   "resolved" "https://registry.npmjs.org/mutationobserver-shim/-/mutationobserver-shim-0.3.7.tgz"
   "version" "0.3.7"
 
-"nanoid@^3.1.30":
+"nanoid@^3.1.22", "nanoid@^3.1.30":
   "integrity" "sha512-zJpuPDwOv8D2zq2WRoMe1HsfZthVewpel9CAvTfc/2mBD1uUT/agc5f7GHGWXlYkFvi1mVxe4IjvP2HNrop7nQ=="
   "resolved" "https://registry.npmjs.org/nanoid/-/nanoid-3.1.30.tgz"
   "version" "3.1.30"
@@ -7817,6 +7870,14 @@
     "html-to-draftjs" "^1.5.0"
     "linkify-it" "^2.2.0"
     "prop-types" "^15.7.2"
+
+"react-editor-js@^2.0.6":
+  "integrity" "sha512-8u47IbhExiFB2kGNdJYlsX5iVlSzac38A3oJ7bmnTz3Lp7Slys1xreoYdG71+KiOcfX0dEgOIavV4e6TJeB5eg=="
+  "resolved" "https://registry.npmjs.org/react-editor-js/-/react-editor-js-2.0.6.tgz"
+  "version" "2.0.6"
+  dependencies:
+    "@react-editor-js/client" "2.0.6"
+    "@react-editor-js/server" "2.0.6"
 
 "react-error-overlay@^6.0.10":
   "integrity" "sha512-mKR90fX7Pm5seCOfz8q9F+66VCc1PGsWSBxKbITjfKVQHMNF2zudxHnMdJiB1fRCb+XsbQV9sO9DCkgsMQgBIA=="
