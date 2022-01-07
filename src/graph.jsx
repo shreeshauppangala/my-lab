@@ -6,9 +6,6 @@ import sunburst from 'highcharts/modules/sunburst.js';
 sunburst(Highcharts);
 
 let options = {
-  chart: {
-    height: '60%'
-},
   title: { text: undefined },
   credits: {
     enabled: false
