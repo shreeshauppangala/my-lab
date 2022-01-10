@@ -1,6 +1,6 @@
-import { default as React } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
-import EventTimeline from '../graph';
+import Graph from '../graph';
 
 export default class Timeline {
 
@@ -11,13 +11,11 @@ export default class Timeline {
         };
     }
 
-    constructor({ data, api, readOnly }) {
+    constructor({ data, api }) {
         this.api = api;
-        this.readOnly = readOnly;
         this.data = {
             events: data.events || [],
         };
-
 
         this.nodes = {
             holder: null,
@@ -36,7 +34,7 @@ export default class Timeline {
 
         ReactDOM.render(
             (
-                <EventTimeline/>
+                <Graph />
             ),
             rootNode);
 
